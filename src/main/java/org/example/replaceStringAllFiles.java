@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class replaceStringAllFiles {
     public static final String serverLocation = "/home/ubuntu/opa_mobile/";
-    
+
     public static String getFilePath(String projectPath) throws IOException {
         String propertiesFile = projectPath+"src\\main\\resources\\application.properties";
         assert new File(propertiesFile).exists();
